@@ -1,0 +1,42 @@
+.book_request_table h2{
+    text-align: center;
+}
+.book_request_table p{
+    text-align: center;
+    
+}
+
+.pending-requests-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  .pending-requests-table th,
+  .pending-requests-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .pending-requests-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pending-requests-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .pending-requests-table button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pending-requests-table button:hover {
+    background-color: #218838;
+  }
+  
